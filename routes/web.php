@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'BlogController@getPosts');
+Route::get('/', 'BlogController@getPosts')->name('welcome');
 
 Auth::routes();
 
